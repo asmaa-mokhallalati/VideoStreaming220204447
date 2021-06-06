@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/video1BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video 1" />
+
+    <Button
+        android:id="@+id/video2BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video 2" />
+
+    <Button
+        android:id="@+id/video3BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video 3" />
+
+    <Button
+        android:id="@+id/video4BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video 4" />
+</LinearLayout>
